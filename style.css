@@ -1,0 +1,63 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+header, footer {
+  background: #4A90E2;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+input#prompt-input {
+  width: 80%;
+  padding: 0.7rem;
+  margin: 1rem 0;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+}
+
+.result {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.history {
+  margin-top: 3rem;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+body.dark header, body.dark footer {
+  background: #1f1f1f;
+}
