@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Promptify Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Promptify Studio</h1>
+    <button id="theme-toggle">Toggle Dark/Light</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Turn your ideas into AI Images and Videos</h2>
+      <input type="text" id="prompt-input" placeholder="Enter your creative prompt here...">
+      <div class="buttons">
+        <button id="generate-image">Generate Image</button>
+        <button id="generate-video">Generate Video</button>
+      </div>
+    </section>
+
+    <section class="result">
+      <div id="loading" class="hidden">Generating...</div>
+      <div id="output-area"></div>
+    </section>
+
+    <section class="history">
+      <h3>History</h3>
+      <ul id="history-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Promptify Studio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
